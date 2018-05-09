@@ -8,7 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 
-import { RoomProvider } from '../providers/room/room';
+// import { RoomProvider } from '../providers/room/room';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -33,7 +33,7 @@ export const deepLinkConfig: DeepLinkConfig = {
     ContactPage,
     HomePage,
     TabsPage,
-    RoomProvider
+    // RoomProvider
   ],
   imports: [
     BrowserModule,
@@ -55,7 +55,7 @@ export const deepLinkConfig: DeepLinkConfig = {
     ContactPage,
     HomePage,
     TabsPage,
-    RoomProvider
+    // RoomProvider
   ],
   providers: [
     StatusBar,
